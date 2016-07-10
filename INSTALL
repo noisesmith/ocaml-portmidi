@@ -4,13 +4,15 @@ Prerequisites:
 
 - ocaml (3.11, maybe earlier)
 - make
-- ocamlfind 
+- ocamlfind
+- oasis
 - Portmidi
 
 Installing :
-1) ./configure
-2) make
-3) make install
+1) oasis setup -setup-update dynamic
+2) ./configure
+3) make
+4) make install
 
 Documentation :
 1) ./configure
